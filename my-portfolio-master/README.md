@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+My Portfolio Website
+This is my personal portfolio website, designed and built to showcase my skills and projects as a frontend developer. It's a single-page application that provides a modern, responsive user experience.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Dynamic Banner: The main section features a typewriter effect that dynamically highlights key skills like HTML, CSS, JavaScript, and ReactJS.
 
-## Available Scripts
+Skills Section: An interactive carousel-based section that visualizes my proficiency in various frontend technologies.
 
-In the project directory, you can run:
+Projects Showcase: A dedicated section that displays my projects with image carousels, detailed descriptions, and links to GitHub repositories and live demos.
 
-### `npm start`
+Functional Contact Form: Visitors can contact me directly through a form that uses EmailJS, eliminating the need for a backend server.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Social Media Integration: The navigation bar and footer include links to my professional social media profiles.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Smooth Navigation: A fixed navigation bar allows for seamless, smooth-scrolling navigation to different sections of the page.
 
-### `npm test`
+Technologies Used
+Frontend: ReactJS, HTML, CSS, JavaScript
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+             <---------------------------->
+Styling: React Bootstrap, animate.css
 
-### `npm run build`
+UI Libraries: react-bootstrap, react-responsive-carousel, react-scroll
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+External Services: EmailJS for handling form submissions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Other Packages: typewriter-effect, @fortawesome/react-fontawesome
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+App.js serves as the main entry point, bringing all the components together.
 
-### `npm run eject`
+NavBar.js creates a fixed navigation bar with social media links and smooth scrolling.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Banner.js is the hero section, introducing you and your skills.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Skill.js displays your skills using a carousel.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Project.js and ProjectItem.js work together to showcase each of your projects with its own details and image carousel.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Footer.js at the bottom of the page includes social media links and a copyright notice.
